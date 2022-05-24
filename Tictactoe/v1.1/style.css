@@ -1,0 +1,110 @@
+*{
+    box-sizing: border-box;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+body{
+    background: linear-gradient(90deg, rgba(213,65,130,1) 0%, rgba(46,119,125,1) 100%);}
+
+header{
+    text-align: center;
+    margin-bottom: 50px;
+    color: rgba(0, 0, 0, 0.748);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.table{
+    display: grid;
+    grid-template-columns: 150px 150px 150px;
+    grid-template-rows:150px 150px 150px;
+    justify-content: center;
+}
+
+footer{
+    color: rgba(72, 71, 71, 0.608);
+    margin-top: 50px;
+    text-align: center;
+}
+
+.bar{
+    border-style: solid;
+    border-color: black ;
+    border-width: 2px;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.itemCircle{
+    width: 115px;
+    height: 115px;
+    border: 5px solid rgba(11, 215, 48, 0.987);
+    border-radius: 50%;
+}
+
+.itemX{
+    width: 10px;
+    height: 125px;
+    background-color: rgba(255, 11, 11, 0.879);
+    border-radius: 50px;
+    transform: rotate(45deg);
+    position: absolute;
+}
+
+.itemX2{
+    width: 10px;
+    height: 125px;
+    border-radius: 50px;
+    background-color: rgba(255, 11, 11, 0.879);
+    transform: rotate(135deg);
+}
+
+
+#cell1{
+    border-top: unset;
+    border-left: unset;
+}
+
+#cell2{
+    border-top: unset;
+}
+
+#cell3{
+    border-top: unset;
+    border-right: unset;
+}
+
+#cell4{
+    border-left: unset;
+}
+
+#cell6{
+    border-right: unset;
+}
+
+#cell7{
+    border-left: unset;
+    border-bottom: unset;
+}
+
+#cell8{
+    border-bottom: unset;
+}
+
+#cell9{
+    border-bottom: unset;
+    border-right: unset;
+}
+
+.victory{
+    font-size: 5em;
+    text-align: center;
+    color: rgb(27, 226, 27);
+    margin-top: 15%;
+}
+
+.victory.red{
+    color: rgb(226, 27, 27)
+}
+
